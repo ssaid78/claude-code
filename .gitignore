@@ -1,0 +1,7 @@
+*.zip
+
+# OAuth/integration token caches (contain live secrets)
+**/src/data/*-tokens.json
+
+# Captured live inbox/drive/youtube data (contains real personal data)
+**/src/data/live-*.json
